@@ -1,1 +1,1 @@
-# AzurePurviewUpskilling
+# Azure Purview Upskilling
