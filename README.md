@@ -2,17 +2,17 @@
 
 
 ## :dart: Objectives
-
+The objective for this learning path is to help every user building knowledge on Azure Purview, starting with basic activities, official documentation or tutorials, and then deep dive into more complex scenarios. 
 
 ## :thinking: Mandatory prerequisites
 
-1. If you are new to Azure, [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/) is the best place to start your cloud journey. 
+1. If you are <b>new to Azure</b>, [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/) is the best place to start your cloud journey. 
 
     >:bulb: By following the online learning paths, you will gain basic knowledge of cloud services and how those services are provided with Azure, but also become familiar with concepts of networking, storage, compute, application support, and application development.
-3. If you are familiar with Azure concepts, but you are new to Azure Data Services, then [Microsoft Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-900) is your next step in your Azure Purview upskilling journey. 
+3. If you are familiar with Azure concepts, but you are <b>new to Azure Data Services</b>, then [Microsoft Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-900) is your next step in your Azure Purview upskilling journey. 
 
     >:bulb: By following the online learning paths, you will get the foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
-5. An [Azure account](https://azure.microsoft.com/en-us/free/) with an active subscription.
+5. An [Azure account](https://azure.microsoft.com/en-us/free/) with an <b>active subscription</b>.
 
     >:bulb: For the technical exercises, you have to use your own subscription and make sure that:
     > * Your must have permissions to create resources in your Azure subscription.
@@ -20,6 +20,11 @@
 
 
 ## :books: Learning Modules
+1. Introduction to Azure Purview
+2. Hands-on workshop
+3. Security
+4. RestAPIs
+
 
 4. Vision and demo of Azure Purivew - https://www.youtube.com/watch?v=aKiBFmiJEBQ 
 5. Introduction to Azure Purview - https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/
