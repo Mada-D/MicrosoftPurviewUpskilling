@@ -6,10 +6,10 @@ The objective for this learning path is to help every user building knowledge on
 
 ## :thinking: Mandatory prerequisites
 
-1. If you are <b>new to Azure</b>, [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/) is the best place to start your cloud journey. 
+1. If you are <b>new to Azure</b>, [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/) is the best place to start your cloud journey. Estimate time of completion: 8 hours.
 
     >:bulb: By following the online learning paths, you will gain basic knowledge of cloud services and how those services are provided with Azure, but also become familiar with concepts of networking, storage, compute, application support, and application development.
-3. If you are familiar with Azure concepts, but you are <b>new to Azure Data Services</b>, then [Microsoft Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-900) is your next step in your Azure Purview upskilling journey. 
+3. If you are familiar with Azure concepts, but you are <b>new to Azure Data Services</b>, then [Microsoft Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-900) is your next step in your Azure Purview upskilling journey.  Estimate time of completion: 6 hours.
 
     >:bulb: By following the online learning paths, you will get the foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
 5. An [Azure account](https://azure.microsoft.com/en-us/free/) with an <b>active subscription</b>.
@@ -21,14 +21,29 @@ The objective for this learning path is to help every user building knowledge on
 
 ## :books: Learning Modules
 1. Introduction to Azure Purview
-2. Hands-on workshop
-3. Security
-4. RestAPIs
+    * [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
+    * [Introduction to Azure Purview](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/) - estimate time of completion: 30 min.
+    * [Overview of Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) - estimate time of completion: 10 min.
+3. Hands-on workshop
+    * [Azure Purview Workshop](https://github.com/tayganr/purviewlab) - estimate time of completion: 5 hours.
+5. Security & Networking
+    * [Azure security baseline for Azure Purview](https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/purview-security-baseline) - estimate time of completion: 2 hours, by going through the referenced materials.
+    * [Private endpoints](https://docs.microsoft.com/en-us/azure/purview/catalog-private-link) - estimate time of completion: 1 hour.
+    * [Security Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-security) - estimate time of completion: 20 min.
+    * [Networking Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-network) - estimate time of completion: 15 min.
+7. Business Continuity and Disaster Recovery
+    * [Disaster Recovery Overview](https://docs.microsoft.com/en-us/azure/purview/disaster-recovery) -  estimate time of completion: 10 min.
+    * [Disaster recovery Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-migration) -  estimate time of completion: 15 min.
+9. RestAPIs
+10. Architecture considerations
+    * [Default Azure Purview Account](https://docs.microsoft.com/en-us/azure/purview/concept-default-purview-account) -  estimate time of completion: 5 min.
+    * [Azure Purview Limits](https://docs.microsoft.com/en-us/azure/purview/how-to-manage-quotas) -  estimate time of completion: 5 min.
+    * [Account architecture Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-accounts) -  estimate time of completion: 5 min.
+    * [Automation Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-automation) -  estimate time of completion: 10 min.
 
 
-4. Vision and demo of Azure Purivew - https://www.youtube.com/watch?v=aKiBFmiJEBQ 
-5. Introduction to Azure Purview - https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/
-6. Technical hands-on workshop - https://github.com/tayganr/purviewlab
+
+6. Technical hands-on workshop - 
 
 SSIS Lineage - https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md
 Databricks Lineage - https://github.com/intellishore/data-lineage-databricks-to-purview
