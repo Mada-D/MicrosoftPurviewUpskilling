@@ -24,40 +24,38 @@ The objective for this learning path is to help every user building knowledge on
     * [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
     * [Introduction to Azure Purview](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/) - estimate time of completion: 30 min.
     * [Overview of Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) - estimate time of completion: 10 min.
-3. Hands-on workshop
+2. Hands-on workshop
     * [Azure Purview Workshop](https://github.com/tayganr/purviewlab) - estimate time of completion: 5 hours.
-5. Security & Networking
+3. Security & Networking
     * [Azure security baseline for Azure Purview](https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/purview-security-baseline) - estimate time of completion: 2 hours, by going through the referenced materials.
     * [Private endpoints](https://docs.microsoft.com/en-us/azure/purview/catalog-private-link) - estimate time of completion: 1 hour.
     * [Security Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-security) - estimate time of completion: 20 min.
     * [Networking Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-network) - estimate time of completion: 15 min.
-7. Business Continuity and Disaster Recovery
+4. Business Continuity and Disaster Recovery
     * [Disaster Recovery Overview](https://docs.microsoft.com/en-us/azure/purview/disaster-recovery) -  estimate time of completion: 10 min.
     * [Disaster recovery Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-migration) -  estimate time of completion: 15 min.
-9. RestAPIs
-10. Architecture considerations
+5. Architecture considerations
     * [Default Azure Purview Account](https://docs.microsoft.com/en-us/azure/purview/concept-default-purview-account) -  estimate time of completion: 5 min.
     * [Azure Purview Limits](https://docs.microsoft.com/en-us/azure/purview/how-to-manage-quotas) -  estimate time of completion: 5 min.
     * [Account architecture Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-accounts) -  estimate time of completion: 5 min.
     * [Automation Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-automation) -  estimate time of completion: 10 min.
+6. Advanced topics with RestAPIs and custom development
+    * [PurviewCLI](https://github.com/tayganr/purviewcli)    
+    * [PyApacheAtlas](https://github.com/wjohnson/pyapacheatlas)    
+    * [SSIS Lineage](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md)    
+    * [Databricks Lineage](https://github.com/intellishore/data-lineage-databricks-to-purview)    
+    * [PowerBI Full Lineage](https://github.com/franmer2/AzurePurviewFullPBILineage_US)    
+    * [Data Source](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/tag_db/tag_db.md)    
+    * [WebApp Lineage](https://github.com/pietheinstrengholt/purview-nodejs-lineage-registration)    
+    * [Publish and subscribe to Kafka](https://github.com/devlace/purview-pubsub)    
+    * [Purview Classification drift notifier](https://github.com/mdrakiburrahman/purview-classification-drift-notifier)    
+    * [Azure Purview Samples](https://github.com/Azure/Purview-Samples)    
+    * [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
+    * [Containerized app for declaring custom sensitivity labels to assets as glossary terms](https://github.com/mdrakiburrahman/purview-asset-ingestor)    
+    * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog)
+    
 
 
 
-6. Technical hands-on workshop - 
-
-SSIS Lineage - https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md
-Databricks Lineage - https://github.com/intellishore/data-lineage-databricks-to-purview
-PowerBI Full Lineage - https://github.com/franmer2/AzurePurviewFullPBILineage_US
-Data Source - https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/tag_db/tag_db.md
-WebApp Lineage - https://github.com/pietheinstrengholt/purview-nodejs-lineage-registration
 
 
-PurviewCLI - https://github.com/tayganr/purviewcli
-PyApacheAtlas - https://github.com/wjohnson/pyapacheatlas
-Publish and subscribe to Kafka - https://github.com/devlace/purview-pubsub
-Purview Classification drift notifier - https://github.com/mdrakiburrahman/purview-classification-drift-notifier
-Containerized app for declaring custom sensitivity labels to assets as glossary terms - https://github.com/mdrakiburrahman/purview-asset-ingestor
-Azure Purview Catalog client library for .NET - https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog
-
-Azure Purview Samples - https://github.com/Azure/Purview-Samples
-ARM template for Azure Purview - https://github.com/kkaarel/azurepurview
