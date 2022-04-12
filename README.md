@@ -40,19 +40,24 @@ The objective for this learning path is to help every user building knowledge on
     * [Account architecture Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-accounts) -  estimate time of completion: 5 min.
     * [Automation Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-automation) -  estimate time of completion: 10 min.
 6. Advanced topics with RestAPIs and custom development
-    * [PurviewCLI](https://github.com/tayganr/purviewcli)    
-    * [PyApacheAtlas](https://github.com/wjohnson/pyapacheatlas)    
-    * [SSIS Lineage](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md)    
-    * [Databricks Lineage](https://github.com/intellishore/data-lineage-databricks-to-purview)    
-    * [PowerBI Full Lineage](https://github.com/franmer2/AzurePurviewFullPBILineage_US)    
-    * [Data Source](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/tag_db/tag_db.md)    
-    * [WebApp Lineage](https://github.com/pietheinstrengholt/purview-nodejs-lineage-registration)    
+    * Packages/samples/SDKs
+        * [Azure Purview Samples](https://github.com/Azure/Purview-Samples) 
+        * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog) 
+        * [PurviewCLI](https://github.com/tayganr/purviewcli)    
+        * [PyApacheAtlas](https://github.com/wjohnson/pyapacheatlas)  
+    * Custom data sources
+        * [Data Source](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/tag_db/tag_db.md)
+        * [Analysis Services](https://github.com/wjohnson/pyapacheatlas/blob/master/samples/notebooks/Purview_Analysis_Services_Custom.ipynb)
+    * Lineage
+        * [SSIS Lineage](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md)    
+        * [Databricks Lineage](https://github.com/intellishore/data-lineage-databricks-to-purview)    
+        * [PowerBI Full Lineage](https://github.com/franmer2/AzurePurviewFullPBILineage_US)    
+        * [WebApp Lineage](https://github.com/pietheinstrengholt/purview-nodejs-lineage-registration)    
     * [Publish and subscribe to Kafka](https://github.com/devlace/purview-pubsub)    
     * [Purview Classification drift notifier](https://github.com/mdrakiburrahman/purview-classification-drift-notifier)    
-    * [Azure Purview Samples](https://github.com/Azure/Purview-Samples)    
-    * [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
     * [Containerized app for declaring custom sensitivity labels to assets as glossary terms](https://github.com/mdrakiburrahman/purview-asset-ingestor)    
-    * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog)
+    * [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
+    
     
 
 
