@@ -38,7 +38,7 @@ The objective for this learning path is to help every user building knowledge on
 
 
 ## 1. <b>Introduction to Azure Purview</b>
-* [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
+* [A guide to data governance](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4GEtu) - estimate time of completion: 90 min.
 * [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
 * [Introduction to Azure Purview](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/) - estimate time of completion: 30 min.
 * [Overview of Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) - estimate time of completion: 10 min.
@@ -122,6 +122,19 @@ The objective for this learning path is to help every user building knowledge on
  <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 7. <b>Advanced topics with RestAPIs and custom development</b>
+* RestAPIs basics
+    * [Architecture](https://atlas.apache.org/2.0.0/Architecture.html), [Atlas Model](https://cwiki.apache.org/confluence/display/ATLAS/Atlas+Model) and [API definition](https://atlas.apache.org/api/v2/index.html) from Apache.org
+    * [Tutorial](https://docs.microsoft.com/en-us/azure/purview/tutorial-using-rest-apis) on using the REST API in MS Docs
+    * [API methods](https://docs.microsoft.com/en-us/azure/purview/tutorial-using-rest-apis#view-the-rest-apis-documentation) supported by Purview
+    * [Azure Purview REST API Deep Dive](https://www.youtube.com/watch?v=4qzjnMf1GN4&feature=youtu.be)
+    * [CLI wrapper to Azure Purview APIs](https://www.youtube.com/watch?v=ycr1G5iMM6U)
+    * [API Documentation](https://github.com/Azure/Purview-Samples/raw/master/rest-api/PurviewCatalogAPISwagger.zip) 
+    * Azure Purview REST API: 
+        * [Part 1: Getting Started](https://www.linkedin.com/pulse/azure-purview-rest-api-part-1-getting-started-raihan-alam/)
+        * [Part 2: Type Definition & Entities](https://www.linkedin.com/pulse/azure-purview-rest-api-part-2-type-definition-entities-raihan-alam/)
+        * [Part 3: Custom Lineage](https://www.linkedin.com/pulse/azure-purview-rest-api-part-3-custom-lineage-raihan-alam/)
+        * [Part 4: Understanding Relationship and Lineage](https://www.linkedin.com/pulse/azure-purview-rest-api-part-4-understanding-lineage-raihan-alam/)
+
 * Packages/samples/SDKs
     * [Azure Purview Samples](https://github.com/Azure/Purview-Samples) 
     * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog) 
