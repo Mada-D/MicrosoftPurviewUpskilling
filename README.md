@@ -21,136 +21,127 @@ The objective for this learning path is to help every user building knowledge on
 <br>
 <br>
 
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
  
 ## :books: Learning Modules
 
 
 ### Table of Contents
 
-1. [Introduction to Azure Purview](#1-apache-atlas)
-2. [Hands-on workshop](#2-register-an-application)
-3. [Security & Networking](#3-generate-a-client-secret)
-4. [Monitoring](#4-provide-service-principal-access-to-azure-purview)
-5. [Business Continuity and Disaster Recovery](#5-get-an-access-token)
-6. [Architecture considerations](#6-read-data-from-azure-purview)
-7. [Advanced topics with RestAPIs and custom development](#7-read-glossary-in-azure-purview)
+1. [Introduction to Azure Purview](#1-introduction-to-azure-purview)
+2. [Hands-on workshop](#2-hands-on-workshop)
+3. [Security & Networking](#3-security--networking)
+4. [Monitoring](#4-monitoring)
+5. [Business Continuity and Disaster Recovery](#5-business-continuity-and-disaster-recovery)
+6. [Architecture considerations](#6-architecture-considerations)
+7. [Advanced topics with RestAPIs and custom development](#7-advanced-topics-with-restapis-and-custom-development)
 
 
 ## 1. <b>Introduction to Azure Purview</b>
-    * [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
-    * [Introduction to Azure Purview](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/) - estimate time of completion: 30 min.
-    * [Overview of Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) - estimate time of completion: 10 min.
-    * [Azure Purview product glossary](https://docs.microsoft.com/en-us/azure/purview/reference-azure-purview-glossary) - estimate time of completion: 10 min.
-    * <b>Azure Purview main components</b> <i>(there are many more components within Azure Purview, but the ones below are the most common. For a full list, please check the official documentation [here](https://docs.microsoft.com/en-us/azure/purview/))</i>:
-        * Data Map
-            * Collections
-                * [Create and manage collections](https://docs.microsoft.com/en-us/azure/purview/how-to-create-and-manage-collections) - estimate time of completion: 10 min.
-                * [Best practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-collections) - estimate time of completion: 15 min.
-            * Sources
-                * [Supported sources and file types](https://docs.microsoft.com/en-us/azure/purview/azure-purview-connector-overview) - estimate time of completion: 10 min.
-                * [User Guide](https://docs.microsoft.com/en-us/azure/purview/manage-data-sources) - estimate time of completion: 10 min.
-            * Classification
-                * [Classification Concept](https://docs.microsoft.com/en-us/azure/purview/concept-classification) - estimate time of completion: 10 min.
-                * [Supported Classifications](https://docs.microsoft.com/en-us/azure/purview/supported-classifications)  - estimate time of completion: 2 hours.
-                * [Custom Classifications](https://docs.microsoft.com/en-us/azure/purview/create-a-custom-classification-and-classification-rule) - estimate time of completion: 10 min.
-                * [Classification Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-classification) - estimate time of completion: 10 min.
-            * Data Lineage
-                * [Data Lineage Concept](https://docs.microsoft.com/en-us/azure/purview/concept-data-lineage) - estimate time of completion: 10 min.
-                * [User Guide](https://docs.microsoft.com/en-us/azure/purview/catalog-lineage-user-guide) - estimate time of completion: 10 min.
-                * [Best practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-lineage-azure-data-factory) - estimate time of completion: 10 min.
+* [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
+* [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
+* [Introduction to Azure Purview](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/) - estimate time of completion: 30 min.
+* [Overview of Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) - estimate time of completion: 10 min.
+* [Azure Purview product glossary](https://docs.microsoft.com/en-us/azure/purview/reference-azure-purview-glossary) - estimate time of completion: 10 min.
+* <b>Azure Purview main components</b> <i>(there are many more components within Azure Purview, but the ones below are the most common. For a full list, please check the official documentation [here](https://docs.microsoft.com/en-us/azure/purview/))</i>:
+     * Data Map
+          * Collections
+            * [Create and manage collections](https://docs.microsoft.com/en-us/azure/purview/how-to-create-and-manage-collections) - estimate time of completion: 10 min.
+            * [Best practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-collections) - estimate time of completion: 15 min.
+          * Sources
+            * [Supported sources and file types](https://docs.microsoft.com/en-us/azure/purview/azure-purview-connector-overview) - estimate time of completion: 10 min.
+            * [User Guide](https://docs.microsoft.com/en-us/azure/purview/manage-data-sources) - estimate time of completion: 10 min.
+         * Classification
+           * [Classification Concept](https://docs.microsoft.com/en-us/azure/purview/concept-classification) - estimate time of completion: 10 min.
+           * [Supported Classifications](https://docs.microsoft.com/en-us/azure/purview/supported-classifications)  - estimate time of completion: 2 hours.
+           * [Custom Classifications](https://docs.microsoft.com/en-us/azure/purview/create-a-custom-classification-and-classification-rule) - estimate time of completion: 10 min.
+           * [Classification Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-classification) - estimate time of completion: 10 min.
+         * Data Lineage
+           * [Data Lineage Concept](https://docs.microsoft.com/en-us/azure/purview/concept-data-lineage) - estimate time of completion: 10 min.
+           * [User Guide](https://docs.microsoft.com/en-us/azure/purview/catalog-lineage-user-guide) - estimate time of completion: 10 min.
+           * [Best practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-lineage-azure-data-factory) - estimate time of completion: 10 min.
             
-        * Data Catalog
-            * Glossary 
-                * [Business Glossary Concept](https://docs.microsoft.com/en-us/azure/purview/concept-business-glossary) - estimate time of completion: 10 min.
-                * [User Guide](https://docs.microsoft.com/en-us/azure/purview/how-to-create-import-export-glossary) - estimate time of completion: 10 min.
-                * [Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-glossary) - estimate time of completion: 10 min. 
+     * Data Catalog
+          * Glossary 
+             * [Business Glossary Concept](https://docs.microsoft.com/en-us/azure/purview/concept-business-glossary) - estimate time of completion: 10 min.
+             * [User Guide](https://docs.microsoft.com/en-us/azure/purview/how-to-create-import-export-glossary) - estimate time of completion: 10 min.
+             * [Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-glossary) - estimate time of completion: 10 min. 
            
-        * Data Policies
+          * Data Policies
             * [Data Owner policies concept](https://docs.microsoft.com/en-us/azure/purview/concept-data-owner-policies) - estimate time of completion: 10 min. 
             * [User Guide on how to enable data use governance](https://docs.microsoft.com/en-us/azure/purview/how-to-enable-data-use-governance) - estimate time of completion: 10 min. 
         * Data Insights
             * [Data Insights concept](https://docs.microsoft.com/en-us/azure/purview/concept-insights) - estimate time of completion: 10 min. 
 
 
-<br>
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 2. <b>Hands-on workshop</b>
-    * [Azure Purview Workshop](https://github.com/tayganr/purviewlab) - estimate time of completion: 5 hours.
+* [Azure Purview Workshop](https://github.com/tayganr/purviewlab) - estimate time of completion: 5 hours.
 
 
-<br>
-
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 3. <b>Security & Networking</b>
-    * Data Level
-        * [Access Control in Azure Purview](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions) - estimate time of completion: 10 min.
-        * [Data Owner policies](https://docs.microsoft.com/en-us/azure/purview/concept-data-owner-policies) - estimate time of completion: 10 min.
-    * Account Level
-        * [Private endpoints](https://docs.microsoft.com/en-us/azure/purview/catalog-private-link) - estimate time of completion: 1 hour.
-        * [Conditional Access](https://docs.microsoft.com/en-us/azure/purview/catalog-conditional-access) - estimate time of completion: 10 min.
-        * [Integrate Azure Purview with Azure Security Products](https://docs.microsoft.com/en-us/azure/purview/how-to-integrate-with-azure-security-products) - estimate time of completion: 10 min.
-        * [Security Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-security) - estimate time of completion: 20 min.
-        * [Networking Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-network) - estimate time of completion: 15 min.
-        * [Azure security baseline for Azure Purview](https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/purview-security-baseline) - estimate time of completion: 2 hours, by going through the referenced materials.
+* Data Level
+    * [Access Control in Azure Purview](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions) - estimate time of completion: 10 min.
+    * [Data Owner policies](https://docs.microsoft.com/en-us/azure/purview/concept-data-owner-policies) - estimate time of completion: 10 min.
+* Account Level
+    * [Private endpoints](https://docs.microsoft.com/en-us/azure/purview/catalog-private-link) - estimate time of completion: 1 hour.
+    * [Conditional Access](https://docs.microsoft.com/en-us/azure/purview/catalog-conditional-access) - estimate time of completion: 10 min.
+    * [Integrate Azure Purview with Azure Security Products](https://docs.microsoft.com/en-us/azure/purview/how-to-integrate-with-azure-security-products) - estimate time of completion: 10 min.
+    * [Security Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-security) - estimate time of completion: 20 min.
+    * [Networking Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-network) - estimate time of completion: 15 min.
+    * [Azure security baseline for Azure Purview](https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/purview-security-baseline) - estimate time of completion: 2 hours, by going through the referenced materials.
 
 
-<br>
-
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 4. <b>Monitoring</b>
-    * [Azure Purview metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/purview/how-to-monitor-with-azure-monitor) - estimate time of completion: 10 min.
-    * [Azure Purview: Audit logs, diagnostics, and activity history](https://docs.microsoft.com/en-us/azure/purview/tutorial-purview-audit-logs-diagnostics) - estimate time of completion: 10 min.
+* [Azure Purview metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/purview/how-to-monitor-with-azure-monitor) - estimate time of completion: 10 min.
+* [Azure Purview: Audit logs, diagnostics, and activity history](https://docs.microsoft.com/en-us/azure/purview/tutorial-purview-audit-logs-diagnostics) - estimate time of completion: 10 min.
 
-
-<br>
-
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 5. <b>Business Continuity and Disaster Recovery</b>
-    * [Disaster Recovery Overview](https://docs.microsoft.com/en-us/azure/purview/disaster-recovery) -  estimate time of completion: 10 min.
-    * [Disaster recovery Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-migration) -  estimate time of completion: 15 min.
+* [Disaster Recovery Overview](https://docs.microsoft.com/en-us/azure/purview/disaster-recovery) -  estimate time of completion: 10 min.
+* [Disaster recovery Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-migration) -  estimate time of completion: 15 min.
     
-<br>
 
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 6. <b>Architecture considerations</b>
-    * [Default Azure Purview Account](https://docs.microsoft.com/en-us/azure/purview/concept-default-purview-account) -  estimate time of completion: 5 min.
-    * [Azure Purview Limits](https://docs.microsoft.com/en-us/azure/purview/how-to-manage-quotas) -  estimate time of completion: 5 min.
-    * [Azure Purview Checklist](https://docs.microsoft.com/en-us/azure/purview/tutorial-azure-purview-checklist) -  estimate time of completion: 10 min.
-    * [Business processes for managing data effectively](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-asset-lifecycle) -  estimate time of completion: 10 min.
-    * [Account architecture Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-accounts) -  estimate time of completion: 5 min.
-    * [Automation Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-automation) -  estimate time of completion: 10 min.
+* [Default Azure Purview Account](https://docs.microsoft.com/en-us/azure/purview/concept-default-purview-account) -  estimate time of completion: 5 min.
+* [Azure Purview Limits](https://docs.microsoft.com/en-us/azure/purview/how-to-manage-quotas) -  estimate time of completion: 5 min.
+* [Azure Purview Checklist](https://docs.microsoft.com/en-us/azure/purview/tutorial-azure-purview-checklist) -  estimate time of completion: 10 min.
+* [Business processes for managing data effectively](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-asset-lifecycle) -  estimate time of completion: 10 min.
+* [Account architecture Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-accounts) -  estimate time of completion: 5 min.
+* [Automation Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-automation) -  estimate time of completion: 10 min.
     
-<br>
 
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 ## 7. <b>Advanced topics with RestAPIs and custom development</b>
-    * Packages/samples/SDKs
-        * [Azure Purview Samples](https://github.com/Azure/Purview-Samples) 
-        * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog) 
-        * [PurviewCLI](https://github.com/tayganr/purviewcli)    
-        * [PyApacheAtlas](https://github.com/wjohnson/pyapacheatlas)  
-    * Custom data sources
-        * [Data Source](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/tag_db/tag_db.md)
-        * [Analysis Services](https://github.com/wjohnson/pyapacheatlas/blob/master/samples/notebooks/Purview_Analysis_Services_Custom.ipynb)
-    * Lineage
-        * [SSIS Lineage](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md)    
-        * [Databricks Lineage](https://github.com/intellishore/data-lineage-databricks-to-purview)    
-        * [PowerBI Full Lineage](https://github.com/franmer2/AzurePurviewFullPBILineage_US)    
-        * [WebApp Lineage](https://github.com/pietheinstrengholt/purview-nodejs-lineage-registration)    
-    * [Publish and subscribe to Kafka](https://github.com/devlace/purview-pubsub)    
-    * [Purview Classification drift notifier](https://github.com/mdrakiburrahman/purview-classification-drift-notifier)    
-    * [Containerized app for declaring custom sensitivity labels to assets as glossary terms](https://github.com/mdrakiburrahman/purview-asset-ingestor)    
-    * [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
+* Packages/samples/SDKs
+    * [Azure Purview Samples](https://github.com/Azure/Purview-Samples) 
+    * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog) 
+    * [PurviewCLI](https://github.com/tayganr/purviewcli)    
+    * [PyApacheAtlas](https://github.com/wjohnson/pyapacheatlas)  
+* Custom data sources
+    * [Data Source](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/tag_db/tag_db.md)
+    * [Analysis Services](https://github.com/wjohnson/pyapacheatlas/blob/master/samples/notebooks/Purview_Analysis_Services_Custom.ipynb)
+* Lineage
+    * [SSIS Lineage](https://github.com/microsoft/Purview-Custom-Connector-Solution-Accelerator/blob/master/examples/ssis/ssis.md)    
+    * [Databricks Lineage](https://github.com/intellishore/data-lineage-databricks-to-purview)    
+    * [PowerBI Full Lineage](https://github.com/franmer2/AzurePurviewFullPBILineage_US)    
+    * [WebApp Lineage](https://github.com/pietheinstrengholt/purview-nodejs-lineage-registration)    
+* [Publish and subscribe to Kafka](https://github.com/devlace/purview-pubsub)    
+* [Purview Classification drift notifier](https://github.com/mdrakiburrahman/purview-classification-drift-notifier)    
+* [Containerized app for declaring custom sensitivity labels to assets as glossary terms](https://github.com/mdrakiburrahman/purview-asset-ingestor)    
+* [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
 
 
- <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ <div align="right"><a href="#azure-purview-upskilling">↥ back to top</a></div>
 
 
 
