@@ -21,7 +21,8 @@ The objective for this learning path is to help every user building knowledge on
 <br>
 <br>
 
-
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+ 
 ## :books: Learning Modules
 1. <b>Introduction to Azure Purview</b>
     * [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
