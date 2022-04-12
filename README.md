@@ -4,7 +4,7 @@
 ## :dart: Objectives
 The objective for this learning path is to help every user building knowledge on Azure Purview, starting with basic activities, official documentation or tutorials, and then deep dive into more complex scenarios. 
 
-## :thinking: Mandatory prerequisites
+## :exclamation: Mandatory prerequisites
 
 1. If you are <b>new to Azure</b>, [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/) is the best place to start your cloud journey. Estimate time of completion: 8 hours.
 
@@ -58,7 +58,7 @@ The objective for this learning path is to help every user building knowledge on
     * [Containerized app for declaring custom sensitivity labels to assets as glossary terms](https://github.com/mdrakiburrahman/purview-asset-ingestor)    
     * [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
     
-    
+
 
 
 
