@@ -61,12 +61,15 @@ The objective for this learning path is to help every user building knowledge on
 
 
 <br>
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
 2. <b>Hands-on workshop</b>
     * [Azure Purview Workshop](https://github.com/tayganr/purviewlab) - estimate time of completion: 5 hours.
 
 
 <br>
+
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
 3. <b>Security & Networking</b>
     * Data Level
@@ -83,6 +86,8 @@ The objective for this learning path is to help every user building knowledge on
 
 <br>
 
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+
 4. <b>Monitoring</b>
     * [Azure Purview metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/purview/how-to-monitor-with-azure-monitor) - estimate time of completion: 10 min.
     * [Azure Purview: Audit logs, diagnostics, and activity history](https://docs.microsoft.com/en-us/azure/purview/tutorial-purview-audit-logs-diagnostics) - estimate time of completion: 10 min.
@@ -90,11 +95,15 @@ The objective for this learning path is to help every user building knowledge on
 
 <br>
 
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
+
 6. <b>Business Continuity and Disaster Recovery</b>
     * [Disaster Recovery Overview](https://docs.microsoft.com/en-us/azure/purview/disaster-recovery) -  estimate time of completion: 10 min.
     * [Disaster recovery Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-migration) -  estimate time of completion: 15 min.
     
 <br>
+
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
 7. <b>Architecture considerations</b>
     * [Default Azure Purview Account](https://docs.microsoft.com/en-us/azure/purview/concept-default-purview-account) -  estimate time of completion: 5 min.
@@ -105,6 +114,8 @@ The objective for this learning path is to help every user building knowledge on
     * [Automation Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-automation) -  estimate time of completion: 10 min.
     
 <br>
+
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
 8. <b>Advanced topics with RestAPIs and custom development</b>
     * Packages/samples/SDKs
@@ -124,7 +135,9 @@ The objective for this learning path is to help every user building knowledge on
     * [Purview Classification drift notifier](https://github.com/mdrakiburrahman/purview-classification-drift-notifier)    
     * [Containerized app for declaring custom sensitivity labels to assets as glossary terms](https://github.com/mdrakiburrahman/purview-asset-ingestor)    
     * [ARM template for Azure Purview](https://github.com/kkaarel/azurepurview)    
-    
+
+
+ <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
 
 
