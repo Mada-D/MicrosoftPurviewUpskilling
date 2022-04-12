@@ -37,9 +37,7 @@ The objective for this learning path is to help every user building knowledge on
 7. [Advanced topics with RestAPIs and custom development](#7-read-glossary-in-azure-purview)
 
 
-
-
-1. <b>Introduction to Azure Purview</b>
+## 1. <b>Introduction to Azure Purview</b>
     * [Vision and demo of Azure Purivew](https://www.youtube.com/watch?v=aKiBFmiJEBQ) - estimate time of completion: 45 min.
     * [Introduction to Azure Purview](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-purview/) - estimate time of completion: 30 min.
     * [Overview of Azure Purview](https://docs.microsoft.com/en-us/azure/purview/overview) - estimate time of completion: 10 min.
@@ -78,7 +76,7 @@ The objective for this learning path is to help every user building knowledge on
 <br>
  <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
-2. <b>Hands-on workshop</b>
+## 2. <b>Hands-on workshop</b>
     * [Azure Purview Workshop](https://github.com/tayganr/purviewlab) - estimate time of completion: 5 hours.
 
 
@@ -86,7 +84,7 @@ The objective for this learning path is to help every user building knowledge on
 
  <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
-3. <b>Security & Networking</b>
+## 3. <b>Security & Networking</b>
     * Data Level
         * [Access Control in Azure Purview](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions) - estimate time of completion: 10 min.
         * [Data Owner policies](https://docs.microsoft.com/en-us/azure/purview/concept-data-owner-policies) - estimate time of completion: 10 min.
@@ -103,7 +101,7 @@ The objective for this learning path is to help every user building knowledge on
 
  <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
-4. <b>Monitoring</b>
+## 4. <b>Monitoring</b>
     * [Azure Purview metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/purview/how-to-monitor-with-azure-monitor) - estimate time of completion: 10 min.
     * [Azure Purview: Audit logs, diagnostics, and activity history](https://docs.microsoft.com/en-us/azure/purview/tutorial-purview-audit-logs-diagnostics) - estimate time of completion: 10 min.
 
@@ -112,7 +110,7 @@ The objective for this learning path is to help every user building knowledge on
 
  <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
-5. <b>Business Continuity and Disaster Recovery</b>
+## 5. <b>Business Continuity and Disaster Recovery</b>
     * [Disaster Recovery Overview](https://docs.microsoft.com/en-us/azure/purview/disaster-recovery) -  estimate time of completion: 10 min.
     * [Disaster recovery Best Practices](https://docs.microsoft.com/en-us/azure/purview/concept-best-practices-migration) -  estimate time of completion: 15 min.
     
@@ -120,7 +118,7 @@ The objective for this learning path is to help every user building knowledge on
 
  <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
-6. <b>Architecture considerations</b>
+## 6. <b>Architecture considerations</b>
     * [Default Azure Purview Account](https://docs.microsoft.com/en-us/azure/purview/concept-default-purview-account) -  estimate time of completion: 5 min.
     * [Azure Purview Limits](https://docs.microsoft.com/en-us/azure/purview/how-to-manage-quotas) -  estimate time of completion: 5 min.
     * [Azure Purview Checklist](https://docs.microsoft.com/en-us/azure/purview/tutorial-azure-purview-checklist) -  estimate time of completion: 10 min.
@@ -132,7 +130,7 @@ The objective for this learning path is to help every user building knowledge on
 
  <div align="right"><a href="#AzurePurviewUpskilling">↥ back to top</a></div>
 
-7. <b>Advanced topics with RestAPIs and custom development</b>
+## 7. <b>Advanced topics with RestAPIs and custom development</b>
     * Packages/samples/SDKs
         * [Azure Purview Samples](https://github.com/Azure/Purview-Samples) 
         * [Azure Purview Catalog client library for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Catalog) 
