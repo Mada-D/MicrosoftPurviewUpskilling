@@ -130,10 +130,10 @@ The objective for this learning path is to help every user building knowledge on
     * [CLI wrapper to Microsoft Purview APIs](https://www.youtube.com/watch?v=ycr1G5iMM6U)
     * [API Documentation](https://github.com/Azure/Purview-Samples/raw/master/rest-api/PurviewCatalogAPISwagger.zip) 
 * Microsoft Purview REST API: 
-        * [Part 1: Getting Started](https://www.linkedin.com/pulse/azure-purview-rest-api-part-1-getting-started-raihan-alam/)
-        * [Part 2: Type Definition & Entities](https://www.linkedin.com/pulse/azure-purview-rest-api-part-2-type-definition-entities-raihan-alam/)
-        * [Part 3: Custom Lineage](https://www.linkedin.com/pulse/azure-purview-rest-api-part-3-custom-lineage-raihan-alam/)
-        * [Part 4: Understanding Relationship and Lineage](https://www.linkedin.com/pulse/azure-purview-rest-api-part-4-understanding-lineage-raihan-alam/)
+     * [Part 1: Getting Started](https://www.linkedin.com/pulse/azure-purview-rest-api-part-1-getting-started-raihan-alam/)
+     * [Part 2: Type Definition & Entities](https://www.linkedin.com/pulse/azure-purview-rest-api-part-2-type-definition-entities-raihan-alam/)
+     * [Part 3: Custom Lineage](https://www.linkedin.com/pulse/azure-purview-rest-api-part-3-custom-lineage-raihan-alam/)
+     * [Part 4: Understanding Relationship and Lineage](https://www.linkedin.com/pulse/azure-purview-rest-api-part-4-understanding-lineage-raihan-alam/)
 
 * Packages/samples/SDKs
     * [Microsoft Purview Samples](https://github.com/Azure/Purview-Samples) 
